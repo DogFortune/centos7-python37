@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:8
 LABEL maintainer "DogFortune<long.gate.snow@gmail.com>"
 
 RUN rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7 && \
